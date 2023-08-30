@@ -1,29 +1,26 @@
-export const navbarStyles={
-    drawer:{
-        width: 320,
-          flexShrink: 0,
-          '& .MuiDrawer-paper': {
-            width: 320,
-            boxSizing: 'border-box',
-            backgroundColor:'#101f33',
-            color:'rgb(255, 255, 255, .7)'
-          },
-          '& .Mui-selected':{
-            color:'red',
-           
-        
-          },
-
+export const navbarStyles = {
+  drawer: {
+    width: 320,
+    flexShrink: 0,
+    "& .MuiDrawer-paper": {
+      width: 320,
+      boxSizing: "border-box",
+      backgroundColor: "#101f33",
+      color: "rgb(255, 255, 255, .7)",
     },
-    icons:{
-        color:'rgb(255, 255, 255, .7)!important',
-        marginLeft:'20px',
+    "& .Mui-selected": {
+      color: "red",
     },
-    text:{
-        '&span':{
-            marginLeft:'-10px',
-            fontWeight:'600px',
-            fontSize:'16px',
-        }
-    }
-}
+  },
+  icons: {
+    color: "rgb(255, 255, 255, .7)!important",
+    marginLeft: "20px",
+  },
+  text: {
+    "&span": {
+      marginLeft: "-10px",
+      fontWeight: "600px",
+      fontSize: "16px",
+    },
+  },
+};

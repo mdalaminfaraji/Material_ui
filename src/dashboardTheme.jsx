@@ -7,7 +7,7 @@ export const DashboardTheme = createTheme({
           // Name of the slot
           contained: {
             // Some CSS
-            fontSize: '3rem!important',
+            fontSize: '1rem!important',
           },
         },
       },
